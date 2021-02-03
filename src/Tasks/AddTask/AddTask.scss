@@ -1,0 +1,26 @@
+.form {
+    margin-top: 36px;
+    &-new {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        opacity: .4;
+        transition: opacity .15s ease-in-out;
+
+        &:hover {
+            opacity: .8;
+        }
+
+        img {
+            width: 24px;
+            height: 24px;
+            margin-left: 13px;
+        }
+
+        span {
+            font-size: 16px;
+            margin-left: 32px;
+            font-family: Roboto, sans-serif;
+        }
+    }
+}
